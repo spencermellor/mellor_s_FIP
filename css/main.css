@@ -1,0 +1,37 @@
+.container {
+	margin: 0 auto;
+	background-color: black;
+	width: 1500px;
+}
+
+/*-- Start Helper Class --*/
+
+.box {
+	color: white;
+	text-align: center;
+}
+
+/*-- Close Helper Class --*/
+
+/*-- Start Header --*/
+
+.mainHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.logoHeader {
+	width: 100px;
+	margin: 10px;
+}
+
+.mainNav {
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+/*-- Close Header --*/
