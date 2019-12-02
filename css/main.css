@@ -1,37 +1,89 @@
+body {
+  background-color: #333333;
+}
+
+.hidden {
+  display: none;
+}
+
 .container {
-	margin: 0 auto;
-	background-color: black;
-	width: 1500px;
+  margin: 0 auto;
+  width: 1000px;
+  background-color: #333;
 }
 
-/*-- Start Helper Class --*/
-
-.box {
-	color: white;
-	text-align: center;
-}
-
-/*-- Close Helper Class --*/
-
-/*-- Start Header --*/
+/*-- Header --*/
 
 .mainHeader {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
+  background-color: #000;
+  width: 100%;
+  height: 80px;
 }
 
 .logoHeader {
-	width: 100px;
-	margin: 10px;
+  float: left;
+  background-color: #000;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.mainNav {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-family: 'Exo 2', sans-serif;
 }
 
-.mainNav {
-	font-family: 'Bebas Neue', cursive;
-	color: white;
-	margin-left: auto;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+.mainNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+ text-align: center;
 }
+
+.mainNav li {
+  display: inline;
+}
+
+.mainNav li a {
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
 /*-- Close Header --*/
+
+/*-- Start Video --*/
+
+.mainVid {
+  text-align: center;
+  height: 524px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+/*-- Close Video --*/
+
+/*-- Start Title --*/
+
+.title {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 50px;
+  color: white;
+}
+
+/*-- Close Title --*/
+
+/*-- Start Footer --*/
+
+.mainFooter {
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  
+/*-- Close Footer --*/
