@@ -4,7 +4,7 @@
 	<p>Build a website using HTML & CSS</p>
 
 <h2>Built With</h2>
-	<p>HTML, CSS, After Effects, Photoshop, Illustrator, Premiere, Final Cut Pro, Markdown</p>
+	<p>HTML, CSS, After Effects, Photoshop, Illustrator, Premiere, Final Cut Pro, Markdown, Lightroom</p>
 
 <h2>Installation</h2>
 	<p>`git clone` into your desired location.</p>
